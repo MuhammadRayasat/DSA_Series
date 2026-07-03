@@ -1,20 +1,5 @@
 #include <iostream>
 using namespace std;
-
-int DeciToBin(int deci)
-{
-
-    int ans=0, pow=1; //10^0
-    while(deci>0){
-        int rem = deci%2;
-        deci /= 2;
-
-        ans += (rem*pow);
-        pow *= 10;
-    }
-    return ans; // Binary Number
-}
-
 //use of binary exponentiation for time complexity O(log n)
 long long power(int num, int exp){
     if(exp == 0) return 1;
