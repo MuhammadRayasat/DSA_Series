@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 //use of binary exponentiation for time complexity O(log n)
 long long power(int num, int exp){
     if(exp == 0) return 1;
