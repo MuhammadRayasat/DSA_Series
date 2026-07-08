@@ -16,8 +16,8 @@ int MaxWat(vector<int> vec){ //O(n)
 }
 
 int main() {
-    vector<int> vec={1,8,6,2,5,4,8,3,7};
-    int max=MaxWat(vec);
+    vector<int> vect={1,8,6,2,5,4,8,3,7};
+    int max=MaxWat(vect);
     cout << "The Maximum Water stored in container: " << max << endl;
     return 0;
 }
